@@ -22,7 +22,7 @@ public class Tour {
     }
 
     /**
-     * Contructor de la clase Tour
+     * Constructor de la clase Tour
      * @param idTour identificación del tour.
      * @param tipoTour tipo de tour.
      * @param nombreTour nombre del tour.
