@@ -55,6 +55,9 @@ public class GestorDatos {
                     listaTours.add(tour);
                 }
             }
+            //Cierre del lector
+            lector.close();
+            
         } catch (IOException e) {
             System.out.println("Error al leer el archivo: " + e.getMessage());
         }
