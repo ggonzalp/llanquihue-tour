@@ -18,7 +18,7 @@ public class GestorDatos {
     /**
      * Constructor de la clase GestorDatos
      * @param rutaCatalogo es la ruta del archivo del catálogo de tours.
-     * @return retorna la lista de tours.
+     * @return retorna la lista de tours cargados en el archivo.
      */
     //Metodo que recibe la ruta del archivo y retorna la lista de tours.
     public ArrayList<Tour> cargarTours(String rutaCatalogo) {
