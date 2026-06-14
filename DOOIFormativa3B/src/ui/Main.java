@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class Main {
 
     /**
-     * Metodo principal donde se ejecuta la aplicación.
+     * Método principal donde se ejecuta la aplicación.
      * @param args argumentos de la línea de comandos.
      */
 
@@ -33,7 +33,7 @@ public class Main {
         //Se crea un objeto de la clase GestorDatos.
         GestorDatos gestor = new GestorDatos();
 
-        //Se crea la lista de tours desde el archivo.
+        //Se crea la lista para almacenar tours.
         ArrayList<Tour> listaTours = new ArrayList<>();
 
         //Metodo add para agregar tour1 a la lista.
